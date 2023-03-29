@@ -7,7 +7,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 )
 
-func Set(db string, section string, content string) error {
+func Set(db string, section string, content interface{}) error {
 	collection := Repo.Client.Database(db).Collection("texts")
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
