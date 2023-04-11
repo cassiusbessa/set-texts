@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cassiusbessa/create-text/entities"
-	"github.com/cassiusbessa/create-text/logs"
+	"github.com/cassiusbessa/db-texts/entities"
+	"github.com/cassiusbessa/db-texts/logs"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

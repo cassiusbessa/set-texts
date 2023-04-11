@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cassiusbessa/create-text/entities"
-	"github.com/cassiusbessa/create-text/repositories"
+	"github.com/cassiusbessa/db-texts/entities"
+	"github.com/cassiusbessa/db-texts/repositories"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )

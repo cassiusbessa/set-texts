@@ -1,4 +1,4 @@
-module github.com/cassiusbessa/create-text
+module github.com/cassiusbessa/db-texts
 
 go 1.20
 

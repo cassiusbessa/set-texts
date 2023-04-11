@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/cassiusbessa/create-text/handlers"
-	"github.com/cassiusbessa/create-text/logs"
-	"github.com/cassiusbessa/create-text/repositories"
+	"github.com/cassiusbessa/db-texts/handlers"
+	"github.com/cassiusbessa/db-texts/logs"
+	"github.com/cassiusbessa/db-texts/repositories"
 	"github.com/sirupsen/logrus"
 )
 
