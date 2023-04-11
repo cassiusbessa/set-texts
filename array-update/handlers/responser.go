@@ -32,6 +32,6 @@ func responser(c *gin.Context, entity entities.BaseEntity, sec, db, id string) {
 		c.JSON(http.StatusNotFound, gin.H{"error": fmt.Sprintf("%v not found", sec)})
 		return
 	}
-
+	logrus.Infof("%v setted successfully on %v", sec, db)
 	c.JSON(http.StatusOK, gin.H{"message": fmt.Sprintf("%v setted successfully", sec)})
 }
